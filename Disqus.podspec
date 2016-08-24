@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   spec.frameworks   = ['CoreGraphics', 'UIKit', 'Foundation']
-  spec.dependency 'AFNetworking', '~> 2.2.1'
+  spec.dependency 'AFNetworking', '~> 2.6'
   spec.source_files = 'Disqus/DisqusComponent/**/*.{h,m}'
   spec.resources = 'Disqus/DisqusComponent/Resources/**/*.*'
 end
